@@ -28,6 +28,11 @@
                                         About
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link to="/Contactus" className="hover:underline mt-6">
+                                        Contactus
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         <div>
