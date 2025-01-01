@@ -8,7 +8,8 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Layout from './Layout';
 import About from './Components/Home/About.js';
 import Contactus from './Components/Contactus/Contactus.js';
-// const router = createBrowserRouter([
+ import Github from './Components/Github/Github.js';
+ // const router = createBrowserRouter([
 //   {path:'/',
 //     element:<Layout/>,
 
@@ -36,6 +37,8 @@ createRoutesFromElements(
  <Route path='about' element={<About />}/>
  <Route  path='Contactus' element={<Contactus />}/>
  <Route  path='User/:userid' element={<User1/>}/>
+ <Route  path='Github' element={<Github/>}/>
+
 </Route>
    
 )
